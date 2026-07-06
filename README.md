@@ -1,5 +1,7 @@
 # Building 20
 
+**Live:** [building20.vercel.app](https://building20.vercel.app) · [reversereplay.github.io/building20](https://reversereplay.github.io/building20/)
+
 A social network for builders, named after MIT's legendary "magical incubator" —
 the temporary plywood building where radar, Chomsky's linguistics, and Bose all
 collided in the same corridors.
@@ -26,8 +28,8 @@ npm run dev     # http://localhost:5184
 npm run build   # outputs to dist/
 ```
 
-Pushes to `main` deploy automatically to GitHub Pages via
-`.github/workflows/deploy.yml`.
+Pushes to `main` deploy automatically to both Vercel (git integration)
+and GitHub Pages (`.github/workflows/deploy.yml`).
 
 ---
 
